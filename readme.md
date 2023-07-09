@@ -8,3 +8,6 @@ This creates a docker image to run a quark application
 * restart - to start again, run cmd_container_start.sh
 * remove - to remove the container, run "docker container rm -f quark-3-c"
 * wipe - to remove the image, run "docker image rm -f quark-3"
+
+## Important Note
+* The reason this works in Docker, is because package.json has the server run on 0.0.0.0
