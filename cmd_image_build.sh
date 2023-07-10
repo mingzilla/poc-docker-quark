@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker image build -t quark-3 .
+docker image build -t quark-dev-1.0 .

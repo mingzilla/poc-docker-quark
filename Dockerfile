@@ -5,11 +5,5 @@ FROM node:20
 WORKDIR /code
 VOLUME /code
 
-# COPY code/package.json /code/package.json
-# COPY run_in_docker__entrypoint.sh /code/run_in_docker__entrypoint.sh
-# RUN chmod 777 /code/run_in_docker__entrypoint.sh
-
-# RUN npm install -y
-
 EXPOSE 5173
-ENTRYPOINT [ "/code/run_in_docker__entrypoint.sh", "-l", "-c" ]
+ENTRYPOINT [ "/code/run_in_docker____entrypoint.sh", "-l", "-c" ]
